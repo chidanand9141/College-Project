@@ -1,0 +1,53 @@
+*{
+padding:0;
+margin:0;
+text-decoration:none;
+list-style:none;
+box-sizing:border-box;
+}
+body
+{
+    font-family:Ink Free;
+    }
+nav
+{
+    background-color:pink;
+    border: 1px solid black;
+    height:110px;
+    width:auto;
+}
+label.logo{
+    color:black;
+    font-size:35px;
+    line-height:80px;
+    padding:0 100px;
+    font-weight:bold;
+    }
+    nav ul{
+        float:right;
+        margin-right:40px;
+        }
+        nav ul li{
+        display:inline-block;
+        line-height:90px;
+        margin:0 5px;
+        }
+        nav ul li a{
+        color:black;
+        font-size:25px;
+        padding:9px 18px;
+        border-radius:3px;
+        text-transform:uppercase;
+        }
+        a.active,a:hover
+        {
+        background: white ;
+        transition:.4s;
+        }
+        img{
+            max-width: 70%;
+            max-height: 70%;
+            }
+
+            
+        
